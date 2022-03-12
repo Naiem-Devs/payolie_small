@@ -1,0 +1,548 @@
+/*   Theme default css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* ======font family=========
+font-family: 'Poppins', sans-serif;*/
+
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background: #CD2BF1;
+  color: #fff;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+button {
+  cursor: pointer;
+}
+
+a:focus,
+button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+a:focus,
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+a,
+button {
+  color: inherit;
+  outline: medium none;
+  text-decoration: none;
+}
+
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
+  outline: 0;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0px;
+  font-weight: 700;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+/* default-css END 
+================================== */
+
+.logo {
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+}
+
+.payolie {
+  height: 100vh;
+  overflow: hidden;
+}
+
+section.payolie.page-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.payolie.page-2 i.cartone {
+    position: absolute;
+    right: 0;
+    bottom: -12px;
+}
+
+
+section.payolie.page-1 i.cartone svg {
+    position: absolute;
+    bottom: -20px;
+}
+
+section.payolie.page-3 i.cartone svg {
+    position: absolute;
+    left: 50%;
+    bottom: -55px;
+    transform: translateX(-50%);
+}
+
+.page-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.page-2 .logo {
+  left: 6%;
+  right: auto;
+}
+
+.page-2 .text_content {
+  top: 15%;
+  left: 3%;
+}
+
+
+
+.page-1 .shape_img {
+  right: 0;
+  top: 0;
+}
+
+.shape_img {
+  position: absolute;
+}
+
+.text_content {
+  position: absolute;
+  max-width: 680px;
+  text-align: center;
+}
+
+.page-1 .text_content {
+  right: 2%;
+  top: 17%;
+}
+
+.text_content h2 {
+  font-size: 45px;
+}
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.loading h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.loading span {
+  margin: 80px 0 40px;
+}
+
+
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+  section.payolie.page-1 i.cartone svg {
+    height: 720px;
+    left: 0;
+    width: 800px;
+}
+
+section.payolie.page-3 i.cartone svg {
+    left: 50%;
+    height: 703px;
+}
+section.payolie.page-2 i.cartone svg {
+  width: 700px;
+  height: 725px;
+}
+.page-3 .text_content {
+  top: 8%;
+  max-width: 560px;
+}
+.logo {
+  right: 50px;
+  bottom: 50px;
+}
+
+
+.page-1 .shape_img {
+    top: -12%;
+}
+
+
+.page-3 .shape_img {
+    right: 0;
+    left: auto;
+    width: max-content;
+}
+.page-1 .shape_img img {
+  max-width: 774px;
+}
+
+.page-3 .shape_img img {
+    max-width: 1146px;
+}
+section.payolie.page-2 .shape_img img {
+  max-width: 781px;
+}
+
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .logo {
+    right: 60px;
+    bottom: 50px;
+  }
+
+  .text_content h2 {
+    font-size: 38px;
+  }
+
+  .text_content {
+    max-width: 559px;
+  }
+
+  section.payolie.page-1 i.cartone svg {
+    height: 720px;
+    left: 0;
+    width: 800px;
+}
+
+section.payolie.page-3 i.cartone svg {
+    left: 50%;
+    height: 703px;
+}
+section.payolie.page-2 i.cartone svg {
+  width: 678px;
+  height: 703px;
+}
+.page-3 .text_content {
+  top: 8%;
+  max-width: 560px;
+}
+.logo {
+  right: 50px;
+  bottom: 50px;
+}
+
+.page-2 .shape_img {
+    left: auto;
+}
+.page-1 .shape_img img {
+  max-width: 659px;
+}
+
+.page-3 .shape_img img {
+    max-width: 924px;
+}
+
+.page-2 .shape_img img {
+    max-width: 927px;
+}
+section.payolie.page-2 .shape_img img {
+  max-width: 781px;
+}
+
+section.payolie.page-2 .shape_img {
+    top: -13%;
+}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .logo{
+    right: 50px;
+    bottom: 50px;
+}
+  section.payolie.page-1 i.cartone svg {
+    height: 581px;
+    left: 0;
+    width: 600px;
+}
+
+section.payolie.page-3 i.cartone svg {
+    left: 50%;
+}
+
+.text_content h2 {
+    font-size: 34px;
+}
+
+.text_content {
+    max-width: 482px;
+}
+
+.page-1 .text_content {
+    top: 10%;
+}
+.page-1 .shape_img img {
+  max-width: 602px;
+}
+
+.page-3 .shape_img img {
+    max-width: 700px;
+}
+
+.page-1 .shape_img {
+    top: -11%;
+}
+
+.page-3 .shape_img {
+    top: 0;
+}
+section.payolie.page-2 i.cartone svg {
+  width: 536px;
+  height: 530px;
+}
+
+section.payolie.page-2 .shape_img img {
+  max-width: 725px;
+}
+
+section.payolie.page-2 .shape_img {
+  top: -13%;
+}
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .logo {
+    bottom: auto;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    top: 20px;
+  }
+
+  .page-2 .logo {
+    left: 50%;
+  }
+
+  .text_content h2 {
+    font-size: 28px;
+  }
+
+  .text_content {
+    max-width: 519px;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+  }
+
+  .page-2 .text_content {
+    left: 50%;
+  }
+
+
+  section.payolie.page-1 i.cartone svg {
+    width: 500px;
+    height: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+section .text_content {
+    top: 10%;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 90%;
+}
+
+.text_content h2 {
+    font-size: 26px;
+}
+
+.logo {
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    right: auto;
+}
+
+.page-1 .shape_img img {
+    max-width: 602px;
+}
+section.payolie.page-2 i.cartone svg {
+  width: 465px;
+  height: 462px;
+}
+
+section.payolie.page-2 i.cartone {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+section.payolie.page-2 .shape_img img {
+  max-width: 725px;
+}
+
+section.payolie.page-2 .shape_img {
+  top: -13%;
+}
+section.payolie.page-4 svg {
+  width: 385px;
+  height: 359px;
+}
+}
+
+@media (max-width: 767px) {
+  .logo {
+    bottom: auto;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    top: 20px;
+  }
+
+.logo a svg {
+    width: 176px;
+    height: 26px;
+}
+  section.payolie.page-1 i.cartone svg {
+    width: 300px;
+    height: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+section.payolie.page-3 i.cartone svg {
+    bottom: -32px;
+    height: 340px;
+    width: 351px;
+}
+
+.page-1 .shape_img img {
+    width: 100%;
+}
+  .page-2 .logo {
+    left: 50%;
+  }
+
+  .text_content h2 {
+    font-size: 20px;
+  }
+
+  .text_content {
+    max-width: 519px;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+  }
+
+  .page-2 .text_content {
+    left: 50%;
+  }
+
+
+  .loading svg {
+    width: 300px;
+  }
+
+  .loading {
+    text-align: center;
+  }
+
+  .loading span {
+    margin: 40px 0 20px;
+  }
+  .page-1 .shape_img img {
+    max-width: 602px;
+}
+section.payolie.page-2 i.cartone svg {
+  width: 319px;
+  height: 319px;
+}
+
+section.payolie.page-2 i.cartone {
+    left: 50%;
+    transform: translateX(-50%);
+    right: auto;
+}
+
+section.payolie.page-2 .shape_img img {
+  max-width: 320px;
+}
+
+section.payolie.page-2 .shape_img {
+  top: -13%;
+}
+section.payolie.page-4 svg {
+  width: 319px;
+  height: 310px;
+}
+.loading svg {
+  width: 100%;
+}
+
+.loading {
+  max-width: 90%;
+}
+
+.loading img {
+  max-width: 214px;
+}
+
+.loading span {
+  margin: 34px 0 20px;
+}
+}
